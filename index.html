@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AEC Source | Architecture, Engineering & Construction Articles</title>
+  <meta name="description" content="Practical articles on architecture, engineering, construction documentation, CAD, BIM, and project delivery for the built environment.">
+  <meta name="theme-color" content="#173b49">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AEC Source">
+  <meta property="og:title" content="AEC Source | Practical ideas for better project delivery">
+  <meta property="og:description" content="Clear, practical articles about architecture, engineering, construction documentation, and the workflows that keep projects moving.">
+  <meta property="og:image" content="/assets/permit-package-comparison.jpg">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .hero { position:relative; overflow:hidden; }
+    .hero:after { content:"AEC"; position:absolute; right:3.5%; bottom:-.38em; font-size:clamp(7rem,19vw,15rem); font-weight:900; letter-spacing:-.09em; line-height:1; color:rgba(23,59,73,.045); pointer-events:none; }
+    .hero > * { position:relative; z-index:1; }
+    .section-heading { margin-top:44px; }
+    .featured-label { display:inline-flex; align-items:center; gap:8px; padding:6px 11px; border-radius:999px; background:#e6f1f3; color:#24677b; font-size:.74rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; margin-bottom:14px; }
+    .card-image-wrap { position:relative; background:#e2e9eb; }
+    .card-image-wrap .card-image { margin:0; }
+    .card-badge { position:absolute; top:13px; left:13px; background:rgba(23,59,73,.93); color:#fff; border-radius:999px; padding:6px 10px; font-size:.7rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+    .intro-note { color:var(--muted); max-width:760px; margin:0 0 24px; }
+    @media(max-width:600px){.hero:after{right:0;bottom:-.18em}.section-heading{margin-top:32px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="AEC Source homepage">AEC Source<small>Ideas for the built environment</small></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="#articles">Articles</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="welcome-title">
+      <p class="eyebrow">Architecture · Engineering · Construction</p>
+      <h1 id="welcome-title">Practical ideas for better project delivery.</h1>
+      <p>AEC Source shares clear, useful perspectives on architecture, engineering, construction documentation, CAD, BIM, and the everyday workflows that keep building projects moving.</p>
+    </section>
+
+    <section id="articles" aria-labelledby="articles-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">From the publication</p>
+          <h2 id="articles-title">Latest articles</h2>
+        </div>
+        <p>Practical insights for AEC professionals.</p>
+      </div>
+      <p class="intro-note">Explore actionable guidance on drawing production, documentation quality, digital delivery, and project coordination.</p>
+
+      <div class="article-grid">
+        <article class="article-card">
+          <a href="/articles/permit-resubmissions/" aria-label="Read How Can Architecture Firms Reduce Permit Resubmissions Caused by Incomplete Drawing Packages?">
+            <div class="card-image-wrap">
+              <img class="card-image" src="/assets/permit-package-comparison.jpg" alt="Comparison of an incomplete architectural permit package and a coordinated drawing package" fetchpriority="high">
+              <span class="card-badge">Featured article</span>
+            </div>
+          </a>
+          <div class="card-content">
+            <p class="card-category">Architectural Documentation</p>
+            <h3><a href="/articles/permit-resubmissions/">How Can Architecture Firms Reduce Permit Resubmissions Caused by Incomplete Drawing Packages?</a></h3>
+            <p>Learn how submission checklists, coordinated plans and revisions, and independent drawing reviews can help firms catch documentation gaps before permit submission.</p>
+            <a class="read-link" href="/articles/permit-resubmissions/">Read article</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="hero" style="margin-top:44px;margin-bottom:0;padding:28px clamp(22px,4vw,40px);">
+      <p class="eyebrow">About AEC Source</p>
+      <h2 style="margin:0 0 10px;font-size:clamp(1.4rem,3vw,2rem);">A practical resource for the built environment.</h2>
+      <p>Articles on architectural documentation, engineering workflows, construction technology, and the decisions that help project teams deliver coordinated work.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="year">2026</span> AEC Source</p>
+      <p>Practical perspectives on the built environment.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
